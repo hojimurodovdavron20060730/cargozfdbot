@@ -21,7 +21,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ================= CONFIG =================
-BOT_TOKEN = os.environ.get("7928409243:AAFKoLy7sA-Lu41KlV0CjS6NFzkpyCP9p30")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ADMINS = [5729543653]
 PORT = int(os.environ.get("PORT", "5000"))
 
